@@ -2,15 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - tell us about a number
+ * main - tell us about the input number
  *
- * return: (0)
+ * Return: always (0)
+ *
  */
 int main(void)
 {
 	int n;
-
-	srand(time(0));
+  	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{printf("%d is positive\n", n);
@@ -19,7 +19,7 @@ int main(void)
 	{printf("%d is zero\n", n);
 	}
 	else if (n < 0)
-	{printf("%d is negative\n",n);
+	{printf("%d is negative\n", n);
 	}
 	return (0);
 }
