@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print hexadecimal numbers
+ * main - print hexadecimal
  *
  * Return: (0)
  *
@@ -8,15 +8,15 @@
 int main(void)
 {
 	char d = '0';
-	char i = 'a';
+	char n = 'a';
 
 	while (d <= '9')
 	{
 		putchar(d++);
 	}
-	while (i <= 'f')
+	while (n <= 'f')
 	{
-		putchar(i++);
+		putchar(n++);
 	}
 	putchar('\n');
 	return (0);
