@@ -8,15 +8,16 @@
 int main(void)
 {
 	char d = '0';
-	char n = 'a';
+	char i = 'a';
 
 	while (d <= '9')
 	{
 		putchar(d++);
 	}
-	while (n <= 'f')
+
+	while (i <= 'f')
 	{
-		putchar(n++);
+		putchar(i++);
 	}
 	putchar('\n');
 	return (0);
